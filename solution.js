@@ -8,7 +8,7 @@ let staircase = (n) => {
     }
     return stair.join('\n');
 }
-
+ 
 // console.log(staircase(6));
 
 // Problem 2: Grading Students 
