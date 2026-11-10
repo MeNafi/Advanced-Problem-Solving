@@ -7,7 +7,7 @@ let staircase = (n) => {
         stair.push(space + hash);
     }
     return stair.join('\n');
-} 
+}  
   
 // console.log(staircase(6));
 
