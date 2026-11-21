@@ -1,21 +1,45 @@
-# Doomsday Ready
 
-A full-stack app that helps MCU fans **plan their rewatch** before *Avengers: Doomsday* and **work out the cheapest exact seat bundles** for a watch party.
-Built for the Blinto Talent Accelerator 2027 – Full Stack Developer Internship assessment (brief: [`docs/Blinto_Assessment_Brief.pdf`](docs/Blinto_Assessment_Brief.pdf)).
+<div align="center">
 
-## Main features
-- **Movies** – create/edit movies, choose prerequisites, tick watched. Circular dependencies are rejected (`409 CIRCULAR_DEPENDENCY`).
-- **Rewatch Plan** – pick a target movie, get every transitive prerequisite once, in a valid order, with watched ticks, progress bar and remaining minutes.
-- **Booking** – pick a cinema, enter a group size (1–10,000), get the fewest bundles that fill the seats *exactly*, or "Not Possible".
-- Both algorithms are written from scratch (no graph / optimisation libraries) and unit-tested.
+# 🎬 Doomsday Ready
 
-## Tech stack
-| Layer | Tools |
-|---|---|
-| Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS, shadcn/ui-style components (Radix Dialog/Slot), Axios, Lucide |
-| Backend | Node.js, Express, TypeScript, Prisma ORM, PostgreSQL |
-| Tests | Vitest (algorithms + validators), API smoke-test script |
-| Infra | Docker Compose (bonus) |
+### Marvel Cinematic Universe (MCU) Rewatch Planner & Smart Watch Party Optimizer
+
+A modern, interactive **Marvel Cinematic Universe (MCU) planning platform** that helps fans organize movie rewatch orders, track watched movies, and plan opening-night watch parties with optimized seat bundle calculations.
+
+**Plan Your Rewatch. Track Your Journey. Get Doomsday Ready.**
+
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radixui&logoColor=white)](https://www.radix-ui.com/)
+[![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
+[![Lucide](https://img.shields.io/badge/Lucide_Icons-F56565?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![Prisma ORM](https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)](https://vitest.dev/)
+[![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+
+</div>
+
+---
+
+## 🚀 Overview
+
+> **Doomsday** is a modern Marvel Cinematic Universe (MCU) planning platform that helps fans prepare for *Avengers: Doomsday* through organized movie rewatch plans and smarter opening-night watch party planning.
+
+> Manage movies, track viewing progress, discover prerequisite films, and calculate the most cost-effective exact seat bundles for group bookings.
+
+### 🎯 Product Goals
+
+- Organize MCU movies and rewatch orders.
+- Track watched movies and viewing progress.
+- Generate personalized, dependency-based rewatch plans.
+- Optimize exact seat bundles for watch parties.
+
 
 ## Folder structure
 ```
