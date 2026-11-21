@@ -1,0 +1,30 @@
+
+# Environment Variables - NEVER PUSH
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+.next/
+out/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# IDE
+.vscode/
+.idea/
