@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 🎬 Doomsday Ready
+# 🎬 Doomsday
 
 ### Marvel Cinematic Universe (MCU) Rewatch Planner & Smart Watch Party Optimizer
 
